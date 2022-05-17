@@ -1,0 +1,21 @@
+{
+  "name": "yarn-test",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@types/eslint": "^8",
+    "@typescript-eslint/eslint-plugin": "^5.24.0",
+    "@typescript-eslint/parser": "^5.24.0",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "eslint-plugin-react": "latest",
+    "next": "^12.1.6",
+    "typescript": "^4.6.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test1": "yarn workspace test1",
+    "test2": "yarn workspace test2"
+  }
+}
